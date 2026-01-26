@@ -24,7 +24,7 @@ const App = () => {
       {/* <button
         onClick={() => {
           console.log("clicked");
-        }}
+        }}                                                
       >
         click here
       </button> */}
