@@ -1,0 +1,53 @@
+/* Reset-ish */
+* {
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #49a6b0, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* App container */
+div {
+  background: #fff;
+  padding: 2rem 2.5rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Number display */
+h1 {
+  margin-bottom: 1.5rem;
+  font-size: 3rem;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  margin: 0.4rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background: #49a6b0;
+  color: #fff;
+  transition: transform 0.15s ease, background 0.15s ease;
+}
+
+button:hover {
+  background: #5a67d8;
+  transform: translateY(-2px);
+}
+
+button:active {
+  transform: translateY(0);
+}
