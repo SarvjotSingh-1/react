@@ -1,0 +1,31 @@
+body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 50px;
+  text-decoration:underline;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:20px 20px;
+  background-color: rgb(224, 149, 149);
+  color: black;
+}
+.nav div{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 40px;
+  background-color: white;
+}
